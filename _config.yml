@@ -1,12 +1,12 @@
 # Site settings
 title: GEDI
-email: null
+email: dubayah@gmail.com
 description: >
   Global Ecosystem Dynamics Investigation
 baseurl: "/gedi-site"
 url: "http://bdubayah.github.io"
 twitter_username: GEDI_Knights
-github_username:  null
+github_username:  bdubayah
 
 # Build settings
 sass:
