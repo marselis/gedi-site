@@ -40,7 +40,7 @@ body > .navbar a {
 
 .whole-page {
   height: 100%;
-  background-image: url('../img/stardust.png');
+  background-image: url("{{ "/img/stardust.png" | prepend: site.baseurl }}");
 }
 
 #scrolly-container {

@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /services/users/zfh1p1/brydub3/www/dubayah.com/gedi/.htpasswd
-require valid-user

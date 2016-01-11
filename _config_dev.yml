@@ -3,8 +3,8 @@ title: GEDI
 email: null
 description: >
   Global Ecosystem Dynamics Investigation
-baseurl: "/gedi-site"
-url: "http://bdubayah.github.io"
+baseurl: ""
+url: "http://localhost:4000"
 twitter_username: GEDI_Knights
 github_username:  null
 
