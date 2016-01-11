@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class='page-header'>
+	<h1>Blog</h1>
+</div>
+
+{% for post in site.posts %}
+<div class='panel panel-default'>
+
+	<div class='panel-heading'>
+		<time><h3 class='panel-title'>{{ post.date | date: "%b %-d, %Y" }}</h3></time>
+	</div>
+
+	<div class='panel-body'>
+		<h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+	</div>
+
+</div>
+{% endfor %}
+
+<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

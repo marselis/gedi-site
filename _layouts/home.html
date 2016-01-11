@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class='whole-page'>
+
+      {% include header.html %}
+
+      <div class='jumbotron'>
+
+        <div class='container'>
+          <h1>Global Ecosystem Dynamics Investigation</h1>
+          <p>Quantifying and understanding the Earth's carbon cycle</p>
+        </div>
+
+      </div>
+
+      <div class='container' id='scrolly-container'>
+        <a href='#objectives' id='scrolly'>
+          {% icon fa-chevron-circle-down fa-4x %}
+        </a>
+      </div>
+
+    </div>
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/gedi/js/bootstrap.js"></script>
+
+  </body>
+
+</html>

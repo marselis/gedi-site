@@ -1,0 +1,88 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px !important;
+}
+
+body > .container {
+  // padding: 60px 15px 0;
+}
+
+.navbar {
+  background-color: transparent !important;
+  border: none !important;
+  padding-top: 20px;
+}
+
+.whole-page > .navbar a {
+  color: #bdc3c7 !important;
+}
+
+body > .navbar a {
+  color: #000 !important;
+}
+
+.jumbotron > .container {
+  padding: 60px 15px 0;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  text-align: center;
+  color: #ecf0f1 !important;
+}
+
+.whole-page {
+  height: 100%;
+  background-image: url('../img/stardust.png');
+}
+
+#scrolly-container {
+  text-align: center;
+}
+
+#scrolly {
+  color: #bdc3c7;
+}
+
+#objectives {
+  padding-top: 50px;
+}
+
+#objectives-images {
+  text-align: center;
+  padding-top: 30px;
+}
+
+hr {
+  border: 0 !important;
+  height: 1px !important;
+  background: #ccc !important;
+}
+
+// Style footer
+.footer {
+  width: 100%;
+  height: 60px;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "bootstrap-sprockets",
+        "bootstrap"
+;

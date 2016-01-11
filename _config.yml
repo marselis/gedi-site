@@ -1,0 +1,16 @@
+# Site settings
+title: GEDI
+email: your-email@domain.com
+description: >
+  Global Ecosystem Dynamics Investigation
+baseurl: "/gedi"
+url: "http://dubayah.com"
+twitter_username: null
+github_username:  null
+
+# Build settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
